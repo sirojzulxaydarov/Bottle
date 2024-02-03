@@ -14,7 +14,7 @@ public class Bottle {
 
     public void addWater() {
         int i = Input.inputINT("Suv quying\uD83D\uDEB0: ");
-        if (water < capacity) {
+        if (water < capacity && i<capacity) {
             water += i;
             System.out.println("Suv quyildi✅");
             System.out.println("Bottle name: " + name + "   Water: " + water + "l");
