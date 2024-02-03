@@ -5,10 +5,7 @@ import uz.pdp.util.Input;
 
 public class Main {
     public static void main(String[] args) {
-        Bottle bottle = new Bottle(
-               Input.inputSTR("Enter bottle name: "),
-               Input.inputINT("Enter bottle capacity: ")
-        );
+        Bottle bottle = new Bottle();
         while (true) {
             displayMenu();
             switch (Input.inputINT("Choose: ")) {
