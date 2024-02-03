@@ -14,6 +14,9 @@ public class Main {
             switch (Input.inputINT("Choose: ")) {
                 case 1 -> bottle.addWater();
 //                case 2 -> bottle.pourWater();
+                case 0 -> {
+                    return;
+                }
             }
         }
 
