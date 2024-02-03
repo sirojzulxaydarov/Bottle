@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Bottle bottle = new Bottle(
                Input.inputSTR("Enter bottle name: "),
-               Input.inputINT("Enter bottle capacity")
+               Input.inputINT("Enter bottle capacity: ")
         );
         while (true) {
             displayMenu();
