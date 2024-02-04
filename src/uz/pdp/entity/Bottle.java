@@ -17,4 +17,15 @@ public class Bottle {
             addWater();
         }
     }
+    public void pourWater() {
+        int i = Input.inputINT("Suv oling\uD83D\uDEB0: ");
+        if ((water-i) >=0) {
+            water -= i;
+            System.out.println("Suv olindi✅");
+            System.out.println("Water: " + water + "l");
+        } else {
+            System.out.println("Buncha yo'q❗\uFE0F");
+            pourWater();
+        }
+    }
 }
