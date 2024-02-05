@@ -10,7 +10,7 @@ public class Main {
             displayMenu();
             switch (Input.inputINT("Choose: ")) {
                 case 1 -> bottle.addWater();
-//                case 2 -> bottle.pourWater();
+                case 2 -> bottle.pourWater();
                 case 0 -> {
                     return;
                 }
